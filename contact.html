@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body class="contact-body">
+  <!-- Reuse your navigation bar -->
+  <header class="navbar">
+    <div class="nav-container">
+      <h1 class="logo">MySite</h1>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Contact Form Section -->
+  <div class="contact-container">
+    <h1>Contact Me</h1>
+    <p>Have a project or question? I’d love to hear from you.</p>
+    <form action="mailto:your@email.com" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+
+</body>
+</html>
