@@ -153,10 +153,11 @@ body.contact-body {
   max-width: 600px;
   width: 90%;
   background-color: rgba(255, 255, 255, 0.05);
-  padding: 40px;
+  padding: 25px;
   border-radius: 20px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.6);
   text-align: center;
+  margin-top: 7%;
 }
 
 .contact-container h1 {

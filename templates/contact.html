@@ -11,26 +11,29 @@
   <!-- Reuse your navigation bar -->
   <header class="navbar">
     <div class="nav-container">
-      <h1 class="logo">MySite</h1>
+      <h1 class="logo">L'ViX</h1>
       <nav class="nav-links">
         <a href="index.html">Home</a>
         <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
-
+  <div class="background"></div>
   <!-- Contact Form Section -->
   <div class="contact-container">
     <h1>Contact Me</h1>
     <p>Have a project or question? I’d love to hear from you.</p>
-    <form action="mailto:your@email.com" method="POST" class="contact-form">
+    <form action="/contact" method="POST" class="contact-form">
       <input type="text" name="name" placeholder="Your Name" required />
       <input type="email" name="email" placeholder="Your Email" required />
       <textarea name="message" placeholder="Your Message" rows="6" required></textarea>
       <button type="submit">Send Message</button>
     </form>
   </div>
-  <script src="script.js"></script>
+ <script src="{{ url_for('static', filename='script.js') }}"></script>
+
 
 </body>
 </html>
+<!-- git add . ; git commit -m "Auto commit" ; git push
+ -->
